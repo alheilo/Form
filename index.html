@@ -171,35 +171,39 @@
     }
     
     .btn {
-      font-family: 'Montserrat', sans-serif; 
-      font-size: 1rem; 
-      font-weight: 500; 
-      padding: 14px 28px; 
-      border-radius: 12px; 
-      border: none; 
-      cursor: pointer; 
-      transition: all 0.3s ease; 
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 500;
+      padding: 14px 30px;
+      border-radius: 50px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      letter-spacing: 0.5px;
       display: inline-flex;
       justify-content: center;
       align-items: center;
     }
 
     .btn-next, .btn-submit {
-      background: var(--btn-green);
+      background: var(--rose-deep);
       color: white;
+      box-shadow: 0 8px 20px rgba(142, 91, 102, 0.3);
       flex-grow: 1;
     }
     .btn-next:hover, .btn-submit:hover {
-      background: var(--btn-green-hover);
+      transform: translateY(-3px);
+      box-shadow: 0 12px 25px rgba(142, 91, 102, 0.4);
     }
 
     .btn-prev {
-      background: transparent;
-      color: var(--btn-green);
-      border: 1px solid var(--btn-green);
+      background: #fff;
+      color: var(--text-light);
+      border: 1px solid var(--pink-mid);
     }
     .btn-prev:hover {
-      background: #f4f9f6;
+      background: var(--pink-mid);
+      color: var(--rose-deep);
     }
 
     /* Экран успеха */
@@ -246,7 +250,7 @@
       <div class="form-step active" id="step-1">
         <h1 class="form-title">Регистрация на свадьбу Саши и Оли</h1>
         <p class="form-intro">
-          Дорогие наши родные и друзья! ❤️<br><br>
+          Дорогие наши родные и близкие! ❤️<br><br>
           Пожалуйста, ответьте до 24 ноября включительно — так мы всё успеем подготовить с любовью.<br><br>
           Если позже планы изменятся — просто заполните форму ещё раз: мы будем ориентироваться на самый свежий ответ. Спасибо, что делаете этот день особенным! ❤️
         </p>
